@@ -164,13 +164,13 @@ background-color: #f8f8f8;
 .title-links {
 text-align: center;
 margin: 50px 0;
-font-family: "Trirong", serif;
+font-family: 'Playfair Display', serif;
 }
 
 .sub-links{
 text-align: center;
 margin: 10px 0;
-font-family: "Trirong", serif;
+font-family: 'Playfair Display', serif;
 }
 
 .container-links {
@@ -246,4 +246,41 @@ margin-bottom: 0;
   float: right;
   margin-left: 10px;
   width: 25px;
+}
+
+/* Navigation Bar */
+.links-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: grey;
+}
+
+.links-li {
+  float: left;
+}
+
+.links-li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.links-li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.hi{
+  font-family: "EB Garamond", serif;
+  font-size:16px;
+  float:right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: grey;
 }
