@@ -1,74 +1,6 @@
-/* Navigation Code */
-.header-class{
-  list-style-type: none; 
-  text-align:center; 
-  margin: 0;
-  padding: 0px;
-  background-color: black;
-}
-
-.header-li{
-  border-right: 1px solid white;
-  display: inline-block;
-}
-
-.header-a{
-  display: block;
-  color: white;
-  font-size:20px;
-  text-align: center;
-  padding: 10px;
-  text-decoration: none;
-}
-
-.header-a:hover {
-  background-color: orange;
-  color: white;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-/* Resume.html code */
-.index-body{
-  font-family: "Trirong", serif;
-  padding:1px 20px;
-  background-color:#f1f1f1;
-}
-
-.index-title{
- 	text-align:center;
-  	text-decoration: underline overline;
-}
-
-.index-text{
-  background-color:white;
-  padding:2px 20px;
-}
-
-.index-text
-	h2{
-	text-decoration: underline;
-}
-
-.index-date{
-	font-style: italic;
-}
-
-.index-contact{
-  vertical-align:top;
-  display:inline-block;  
-}
-
-.center{
-  text-align: center; 
-  word-spacing: 10px; 
-}
-
 /* Links Page */
 .links-body {
-font-family: "Trirong", serif;
+font-family: serif;
 margin: 0;
 padding: 0;
 background-color: #f8f8f8;
@@ -161,7 +93,7 @@ margin-bottom: 0;
   width: 25px;
 }
 
-/* Navigation Bar */
+/* Navigation Bar for links */
 .links-ul {
   list-style-type: none;
   margin: 0;
@@ -183,6 +115,31 @@ margin-bottom: 0;
 }
 
 .links-li a:hover:not(.active) {
+  background-color: #111;
+}
+
+/* Navigation Bar for Index */
+.index-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-image: url("stans.png");
+}
+
+.index-li {
+  float: left;
+}
+
+.index-li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.index-li a:hover:not(.active) {
   background-color: #111;
 }
 
@@ -221,7 +178,8 @@ background-color: #f8f8f8;
 }
 .hero_desc {
     font-size: 25px;
-    font-family: "EB Garamond", serif;
+    font-family: 'Cormorant Garamond', serif;
+    color: white;
 }
 .hero-text {
     text-align: center;
@@ -267,11 +225,18 @@ background-color: #f8f8f8;
 .text-46{
   font-family: 'Playfair Display', serif;
   line-height: 40px;
+  background-color:white;
+  color:black;
+  padding:15px;
+  border-radius: 20px;
+  display: inline-block;
 }
 
 .text-47{
+  padding:15px;
   font-family: "EB Garamond", serif;
-  line-height: 20px;
+  line-height:2px;
+  font-size:18px;
 }
 
 .image-48 {
@@ -280,7 +245,7 @@ background-color: #f8f8f8;
 
 .btn {
   display: block;
-  margin-top: 20px;
+  margin: 20px 15px;
   padding: 8px 8px;
   font-size: 1.2em;
   color: white;
@@ -300,3 +265,7 @@ background-color: #f8f8f8;
   height: 540px;
   border-radius: 25px;
 }
+
+/* Bottom Containers on index*/
+
+/* Resume Page */
