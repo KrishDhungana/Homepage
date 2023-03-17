@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap');
+
+/* Navigation Bar for Resume */
+.resume-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: grey;
+}
+
+.resume-li {
+  float: left;
+  
+}
+
+.resume-li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family:"Noto Serif Display", serif;
+}
+
+.resume-li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.name{
+  font-family: "EB Garamond", serif;
+  font-size:16px;
+  float:right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: grey;
+}
+
+.footer {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+  margin-top:45px;
+}
+
+.foot-1 {
+  font-family: "Noto Serif Display", serif;
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+}
+
+.foot-2 {
+  font-family: "Noto Serif Display", serif;
+  font-size: 14px;
+  color: #333;
+  font-weight: bold;
+}
+
+.foot-3 {
+  font-family: "Noto Serif Display", serif;
+  font-size: 10px;
+  color: #333;
+  font-weight: bold;
+}
+
+.resume-body {
+font-family: "Noto Serif Display", serif;
+margin: 0;
+padding: 0;
+background-color: #f8f8f8;
+}
+
+/* ALL NEW CSS CODE */
+body.resume-body {
+  background-color:#f8f8f8;
+  background-image: url("");
+  font-family: "Open Sans", sans-serif;
+}
+
+.img-container img {
+  width: 250px;
+  display: block;
+  margin: auto;
+  border-radius: 125px;
+  border: 2px solid #a3b5d3;
+}
+
+#main-fluid {
+  padding-top: 5rem;
+  width: 100%;
+  max-width: 960px;
+  margin: auto;
+}
+
+#main-fluid h1 {
+  color: #5079b9;
+}
+
+.card-glassmorphism {
+  background-color: rgba(255,255,255,0.6);
+  border-radius: 0px;
+  margin-top: 2rem;
+  padding: 2rem;
+  /*box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;*/
+  box-shadow: rgba(70, 70, 93, 1.25) 0 50px 100px -20px, rgba(0, 0, 0, 0.3) 0 30px 60px -30px;
+  backface-visibility: hidden;
+}
+
+.card-glassmorphism h2 {
+  color: #5079b9;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-8-4 {
+  grid-template-columns: auto;
+}
+
+.contact-container + h1 {
+  height: 25%;
+}
+
+.contact-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-row-gap: 10px;
+}
+
+.contact-container * {
+  width: 100%;
+  margin: 0;
+}
+
+.contact-container div {
+  background-color: #a3b5d3;
+  color: white;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  padding: 5px 15px;
+}
+
+.contact-container a {
+  text-decoration: none;
+}
+
+.row-caption {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row-caption p:last-child {
+  font-style: italic;
+  color: #666;
+}
+
+.divider {
+  border-bottom: 2px solid #ddd;
+  width: 50%;
+  display: block;
+  margin-left: 25%;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
