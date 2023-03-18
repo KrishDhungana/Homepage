@@ -269,5 +269,57 @@ background-color: #f8f8f8;
 }
 
 /* Bottom Containers on index*/
+.container-skills {
+max-width: auto;
+margin: 0 auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+padding: 50px;
+box-sizing: border-box;                
+}
 
-/* Resume Page */
+.box-skills {
+width: calc(33.33% - 20px);
+background-color:#f1f1f1;
+border-radius: 5px;
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+margin-bottom: 40px;
+box-sizing: border-box;
+padding: 20px;
+transition: all 0.3s ease;
+}
+
+.box-skills a {
+text-decoration: none;
+color: #333;
+font-size: 20px;
+font-weight: bold;
+display: block;
+margin-bottom: 20px;
+text-align: center;
+font-family: 'Playfair Display', serif;
+}
+
+.box-skills p {
+font-size: 16px;
+line-height: 1.5;
+color: black;
+margin-bottom: 0;
+text-align:center;
+font-family: serif;
+}
+
+.skill-icon {
+  width: 35px;
+  margin-top: 15px;
+  justify-content: center;
+  display: flex;
+  align-content: center;
+}
+
+.sub-links{
+text-align: center;
+margin: 10px 0;
+font-family: 'Playfair Display', serif;
+}
