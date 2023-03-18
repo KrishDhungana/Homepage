@@ -90,7 +90,6 @@ body.resume-body {
   display: block;
   margin: auto;
   border-radius: 10px;
-  border: 3px solid grey;
 }
 
 
@@ -139,6 +138,10 @@ body.resume-body {
   list-style-type: square;
   font-family: Times New Roman;
   
+}
+
+.card-glassmorphism li {
+  margin:8px;
 }
 
 .grid {
