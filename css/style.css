@@ -323,3 +323,44 @@ text-align: center;
 margin: 10px 0;
 font-family: 'Playfair Display', serif;
 }
+
+/* Media Queries -- Links Page */
+/* Styles for screens smaller than 768px */
+@media screen and (max-width: 600px) {
+  /* Adjust the font size of the navigation links */
+  .links-nav a {
+    font-size: 14px;
+  }
+  
+  /* Adjust the font size of the title and subheading */
+  .title-links {
+    font-size: 24px;
+  }
+  .sub-links {
+    font-size: 16px;
+  }
+  
+  /* Adjust the width of the link boxes */
+  .box-links {
+    width: 100%;
+  }
+  
+  /* Center the social icons */
+  .social-icon {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Adjust the font size and spacing of the footer */
+  .footer {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+  .foot-1 {
+    margin-bottom: 10px;
+  }
+  .foot-2, .foot-3 {
+    margin-top: 10px;
+  }
+}
+
