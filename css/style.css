@@ -325,8 +325,8 @@ font-family: 'Playfair Display', serif;
 }
 
 /* Media Queries -- Links Page */
-/* Styles for screens smaller than 768px */
-@media screen and (max-width: 600px) {
+/* Styles for screens smaller than 600px */
+@media screen and (max-width: 768px) {
   /* Adjust the font size of the navigation links */
   .links-nav a {
     font-size: 14px;
