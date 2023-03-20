@@ -331,6 +331,9 @@ font-family: 'Playfair Display', serif;
   .links-nav a {
     font-size: 14px;
   }
+  .name {
+    font-size: 0.5rem;
+  }
   
   /* Adjust the font size of the title and subheading */
   .title-links {
@@ -366,11 +369,12 @@ font-family: 'Playfair Display', serif;
 
 /* Mobile Styles */
 @media only screen and (max-width: 768px) {
-    .index-nav {
-        display: none;
+    .index-nav a {
+      font-size: 14px;
     }
+  
     .name {
-        font-size: 1.5rem;
+        font-size: 0.5rem;
     }
     .hero_title {
         font-size: 2rem;
